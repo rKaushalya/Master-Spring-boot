@@ -31,11 +31,11 @@ public class CourseJdbcRepository {
         jdbcTemplate.update(INSERT_QUERY,course.getId(),course.getName(),course.getAuthor());
     }
 
-    public void delete(long id){
+    public void deleteById(long id){
         jdbcTemplate.update(DELETE_QUERY,id);
     }
 
-    public Course searchById(long id){
+    public Course findById(long id){
         return jdbcTemplate.queryForObject(SEARCH_QUERY,new BeanPropertyRowMapper<>(Course.class),id);
     }
 }
