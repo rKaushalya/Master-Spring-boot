@@ -1,7 +1,7 @@
 package com.worametrics.restApi.restfulwebservice.controller;
 
 import com.worametrics.restApi.restfulwebservice.dao.UserDao;
-import com.worametrics.restApi.restfulwebservice.user.User;
+import com.worametrics.restApi.restfulwebservice.entity.User;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

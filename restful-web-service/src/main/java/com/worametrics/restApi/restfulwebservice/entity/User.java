@@ -1,4 +1,4 @@
-package com.worametrics.restApi.restfulwebservice.user;
+package com.worametrics.restApi.restfulwebservice.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
